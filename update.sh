@@ -33,7 +33,7 @@ echo -e "$green               <=================== updating the DDattack please 
 sleep 2.0
 cd $HOME
 rm -rf getsourcecode
-git clone https://github.com/noobforanonymous/getsourcecode
+git clone https://github.com/noobforanonymous/DDattack
 clear
 echo " "
 echo -e "$yellow              <=================== DDattack has been updated check it now===============>$clear"
