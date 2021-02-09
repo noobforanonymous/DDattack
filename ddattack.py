@@ -25,7 +25,7 @@ print (yellow + "website     :  https://dev-regaanthamimprogramming.pantheonsite
 print (yellow + "You Tube    :  https://www.youtube.com/channel/UCpKJnmkqAYVqLbl3ZWhh4yA" + yellow)
 print (yellow + "github      :  https://github.com/noobforanonymous" + yellow)
 
-rt = input("Enter Your Target IP : ")
+rt = raw_input("Enter Your Target IP : ")
 hack = input("Enter Any Port       : ")
 
 os.system("clear")
