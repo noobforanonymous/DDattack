@@ -10,5 +10,5 @@ apt install python3 -y
 apt install python3-pip(this cmd only for linux users)
 pip install lolcat
 pkg install figlet
-git clone https://github.com/noobforanonymous/DDattack && cd DDattack && ls
-python ddattack.py
+git clone https://github.com/noobforanonymous/DDattack && cd DDattack && ls && python ddattack.py
+
