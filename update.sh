@@ -16,28 +16,28 @@ echo " "
 echo " "
 sleep 6.0
 clear
-echo -e "$red                         <===================wait===============>$clear"
+echo -e "$red                         <=================== wait ===============>$clear"
 sleep 2.0
 clear
-echo -e "$red                          <===================we are checking===============>$clear"
+echo -e "$red                          <=================== we are checking ===============>$clear"
 sleep 2.0
 clear
-echo -e "$red                         <===================any updates===============>$clear"
+echo -e "$red                         <=================== any updates ===============>$clear"
 sleep 2.0
 clear
-echo -e "$red                         <===================wait now it's===============>$clear"
+echo -e "$red                         <=================== wait now it's ===============>$clear"
 sleep 2.0
 clear
 echo " "
 echo " "
-echo -e "$green               <=================== updating the DDattack please wait===============>$clear"
+echo -e "$green               <=================== updating the DDattack please wait ===============>$clear"
 sleep 2.0
 cd $HOME
 rm -rf getsourcecode
 git clone https://github.com/noobforanonymous/DDattack
 clear
 cho " "
-echo -e "$green               <==================DDattack has been updated========================>$clear"
+echo -e "$green               <================== DDattack has been updated ========================>$clear"
 sleep 3.0
 echo " "
 cd DDattack
