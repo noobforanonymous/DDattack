@@ -36,9 +36,10 @@ cd $HOME
 rm -rf getsourcecode
 git clone https://github.com/noobforanonymous/DDattack
 clear
-echo " "
-echo -e "$yellow              <=================== DDattack has been updated check it now===============>$clear"
+cho " "
+echo -e "$green               <==================DDattack has been updated========================>$clear"
 sleep 3.0
 echo " "
-cd $HOME
+cd DDattack
+python ddattack.py
 clear
