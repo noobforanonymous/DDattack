@@ -47,7 +47,7 @@ while True:
      reg.sendto(load,(rt,hack))
      send = send + 1
      hack = hack + 1
-     print ("sends %s the packet  %s through port:%s"%(send,rt,hack))
+     print ("send %s the packet  %s through port:%s"%(send,rt,hack))
      if hack == 65534:
        hack = 1
 
