@@ -20,7 +20,6 @@ load = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDOS Attack | lolcat")
 print
-print "Author   :  ANONYMOUS "
 print "website  :  https://dev-regaanthamimprogramming.pantheonsite.io"
 print "You Tube :  https://www.youtube.com/channel/UCpKJnmkqAYVqLbl3ZWhh4yA"
 print "github   :  https://github.com/noobforanonymous"
