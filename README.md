@@ -1,7 +1,7 @@
 # DDattack
 ONLY FOR EDUCTIONAL PURPOSE
 
-LINUX AND TERMUX INSTALLTION METHOD
+LINUX INSTALLTION METHOD
 apt update -y
 apt upgrade -y
 apt install git -y 
